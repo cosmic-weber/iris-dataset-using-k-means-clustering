@@ -66,6 +66,6 @@ latter are NOT linearly separable from each other.
      conceptual clustering system finds 3 classes in the data.
    - Many, many more ...
 
-## In this project we are going to make clusters or classify the flowers based on the features like sepal length, sepal width and same for petal and the results are 
+# In this project we are going to make clusters or classify the flowers based on the features like sepal length, sepal width and same for petal and implemented the k-means algorithm from scratch, and the results are 
 
 ![Figure_1](https://user-images.githubusercontent.com/68591556/185174251-6452a0c7-6118-4a13-a836-ae2e36ade5fb.png)
