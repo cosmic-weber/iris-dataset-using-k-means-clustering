@@ -66,6 +66,16 @@ latter are NOT linearly separable from each other.
      conceptual clustering system finds 3 classes in the data.
    - Many, many more ...
 
-# In this project we are going to make clusters or classify the flowers based on the features like sepal length, sepal width and same for petal and implemented the k-means algorithm from scratch, and the results are 
+## In this project we are going to make clusters or classify the flowers based on the features like sepal length, sepal width and same for petal and implemented the k-means algorithm from scratch, and the results are 
 
 ![Figure_1](https://user-images.githubusercontent.com/68591556/185174251-6452a0c7-6118-4a13-a836-ae2e36ade5fb.png)
+
+Good clustering results in tight clusters, meaning that the samples in each cluster are bunched together. How spread out the clusters are is measured by inertia. Inertia is the distance from each sample to the centroid of its cluster. The lower the inertia is, the better our model has done.
+
+You can check the inertia of a model by:
+
+print(model.inertia_)
+For the Iris dataset, if we graph all the ks (number of clusters) with their inertias:
+
+![image](https://user-images.githubusercontent.com/68591556/185183997-9d9cb130-9ad0-4f29-9493-a96fdec993cb.png)
+
